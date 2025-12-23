@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: dev
-    database: db
+    database: default
     tables:
       - name: raw_weather_data
         columns:

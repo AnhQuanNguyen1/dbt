@@ -5,7 +5,7 @@
 
 with source as (
     select *
-    from {{ source('dev', 'raw_weather_data') }}
+    from {{ source('default', 'raw_weather_data') }}
 ),
 
 de_dup as (

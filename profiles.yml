@@ -1,12 +1,13 @@
 my_project:
   outputs:
     dev:
-      dbname: db
-      host: db
-      pass: admin
-      port: 5432
-      schema: dev
+      type: clickhouse
+      host: p4i376wb1s.ap-southeast-2.aws.clickhouse.cloud
+      port: 8443
+      user: default
+      password: TN.BR0QPadE62
+      # database: db
+      schema: default
+      secure: true
       threads: 4
-      type: postgres
-      user: admin
   target: dev
